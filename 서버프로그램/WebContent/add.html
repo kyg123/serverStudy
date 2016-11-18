@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<!-- jQuery CDN -->
+
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+ 
+ <script src = js/add.js></script>
+ 
+</head>
+<body>
+	
+	
+	
+	<!-- method가 get이면 서버의 doget함수 호출, post면 dopost함수 호출 -->
+	<!-- <form action="http://localhost:8080/myProject/add" method="get">
+	<input type="text" name="fist"> + <input type="text" name="second"><br><br>
+	<input type="submit" value="서버로 전송"><br>
+	</form>-->
+	
+	<input type="text" id="first"> + <input type="text" id="second"><br><br>
+	<input type="button" value="서버로 전송" onclick="callServer()"><br>
+	
+	계산된 결과 : <span>결과값</span>
+</body>
+</html>
